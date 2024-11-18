@@ -1,9 +1,2 @@
-@use 'base/variables' as *;
-@use 'base/normalize';
-
-body {
-    font-family: $fuente_principal;
-    font-optical-sizing: auto;
-    font-style: normal;
-    background-color: $verde;
-}
+@forward 'base';
+@forward 'layout';
