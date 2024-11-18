@@ -1,3 +1,9 @@
+@use 'base/variables' as *;
+@use 'base/normalize';
+
 body {
-    background-color: gray;
+    font-family: $fuente_principal;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: $verde;
 }
