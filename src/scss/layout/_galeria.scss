@@ -41,6 +41,17 @@
     img {
         max-width: 100rem;
     }
+ 
+}
+
+.btn-cerrar {
+    border-radius: 50%;
+    font-weight: 900;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #bebebe;
+    }
 }
 
 @keyframes fadeIn {
